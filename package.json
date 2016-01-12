@@ -1,0 +1,15 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "userpolicy": "node mdoutput.js template/userpolicy.html userpolicy.md output/userpolicy.html",
+    "minimize": "node minimize.js ../Localize/l/ l/"
+  },
+  "author": "Kototama",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "0.3.5"
+  }
+}
